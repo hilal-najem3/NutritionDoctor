@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             FoodCategoriesTableSeeder::class,
             FoodTableSeeder::class,
+            NewUsersTableSeeder::class,
         ]);
     }
 }
